@@ -70,7 +70,7 @@
 			<version>2.1.4</version>
 		</dependency>
 	</dependencies>
-
+<!-- provide jdk installation directory else  exception is thrown while mvn clean package command -->
 	<build>
 		<plugins>
 			<plugin>
